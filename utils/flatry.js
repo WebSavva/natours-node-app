@@ -1,0 +1,1 @@
+module.exports = (asyncAction) => asyncAction.then((result) => [null, result], (err) => [err] );

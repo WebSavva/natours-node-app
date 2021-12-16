@@ -1,0 +1,1 @@
+module.exports = (rawObject, fields) => fields.reduce((ac, fieldName) => ac[fieldName] = rawObject[fieldName], {});
